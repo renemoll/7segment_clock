@@ -1,0 +1,9 @@
+[submodule "external/stm32f7xx_hal_driver"]
+	path = external/stm32f7xx_hal_driver
+	url = https://github.com/STMicroelectronics/stm32f7xx_hal_driver.git
+[submodule "external/cmsis_device_f7"]
+	path = external/cmsis_device_f7
+	url = https://github.com/STMicroelectronics/cmsis_device_f7.git
+[submodule "external/modm"]
+	path = external/modm
+	url = https://github.com/modm-io/modm.git

@@ -1,0 +1,9 @@
+/**
+
+@defgroup modm_ide IDE Support
+
+lbuild module: `modm:ide`
+
+
+
+ */

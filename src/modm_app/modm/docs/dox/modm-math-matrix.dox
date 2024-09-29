@@ -1,0 +1,10 @@
+/**
+
+@ingroup modm_math
+@defgroup modm_math_matrix Matrix Math
+
+lbuild module: `modm:math:matrix`
+
+
+
+ */

@@ -1,0 +1,10 @@
+/**
+
+@ingroup modm_board
+@defgroup modm_board_nucleo_f767zi NUCLEO-F767ZI
+
+lbuild module: `modm:board:nucleo-f767zi`
+
+[Nucleo kit for STM32F767ZI](https://www.st.com/en/evaluation-tools/nucleo-f767zi.html)
+
+ */

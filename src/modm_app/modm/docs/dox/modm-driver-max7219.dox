@@ -1,0 +1,10 @@
+/**
+
+@ingroup modm_driver
+@defgroup modm_driver_max7219 MAX7219 Display
+
+lbuild module: `modm:driver:max7219`
+
+
+
+ */

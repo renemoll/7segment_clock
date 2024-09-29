@@ -1,0 +1,10 @@
+/**
+
+@defgroup modm_ui User interface
+
+lbuild module: `modm:ui`
+
+Interfacing with human users.
+Contains code for Graphics, Buttons, LEDs, Animations, Menu Structures.
+
+ */

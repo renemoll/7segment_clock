@@ -1,0 +1,13 @@
+{
+	"image": "ghcr.io/philips-software/amp-devcontainer-cpp",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"files.insertFinalNewline": true,
+				"files.trimTrailingWhitespace": true,
+				"editor.detectIndentation": true,
+				"editor.insertSpaces": false
+			}
+		}
+	}
+}

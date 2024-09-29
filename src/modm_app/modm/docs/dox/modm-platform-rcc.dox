@@ -1,0 +1,10 @@
+/**
+
+@ingroup modm_platform
+@defgroup modm_platform_rcc Reset and Clock Control (RCC)
+
+lbuild module: `modm:platform:rcc`
+
+
+
+ */

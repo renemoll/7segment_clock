@@ -1,0 +1,10 @@
+/**
+
+@ingroup modm_platform_spi
+@defgroup modm_platform_spi_1 Instance 1
+
+lbuild module: `modm:platform:spi:1`
+
+
+
+ */

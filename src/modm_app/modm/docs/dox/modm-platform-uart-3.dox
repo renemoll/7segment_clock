@@ -1,0 +1,10 @@
+/**
+
+@ingroup modm_platform_uart
+@defgroup modm_platform_uart_3 Instance 3
+
+lbuild module: `modm:platform:uart:3`
+
+
+
+ */

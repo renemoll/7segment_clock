@@ -1,0 +1,10 @@
+/**
+
+@ingroup modm_ui
+@defgroup modm_ui_color Color
+
+lbuild module: `modm:ui:color`
+
+Color containers and converters in various formats: RGB, HSV, Brightness, Rgb565
+
+ */

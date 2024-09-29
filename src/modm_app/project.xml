@@ -1,0 +1,22 @@
+<library>
+  <repositories>
+    <repository><path>../../external/modm/repo.lb</path></repository>
+  </repositories>
+
+	<extends>modm:nucleo-f767zi</extends>
+
+  <options>
+    <option name="modm:build:project.name">digital_clock</option>
+	<option name="modm:platform:cortex-m:linkerscript.override">src/modm_app/modm/link/linkerscript.ld</option>
+  </options>
+  <modules>
+    <module>modm:build:cmake</module>
+	<module>modm:debug</module>
+	<module>modm:driver:cycle_counter</module>
+	<!-- <module>modm:driver:gpio_sampler</module> -->
+	<module>modm:driver:max7219</module>
+	<module>modm:ide:vscode</module>
+	<module>modm:platform:spi:1</module>
+    <module>modm:docs</module>
+  </modules>
+</library>

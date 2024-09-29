@@ -1,0 +1,33 @@
+/**
+
+@ingroup modm_platform
+@defgroup modm_platform_uart Universal Asynchronous Receiver Transmitter (UART)
+
+lbuild module: `modm:platform:uart`
+
+The UART buffer configuration is implemented as C++ template arguments:
+
+~~~{.cpp}
+using namespace modm::platform;
+// Using only hardware buffers for Tx and Rx (both 1 symbol)
+using UartN = BufferedUart<U(s)artHalN>;
+// using only TX software buffer
+using UartN = BufferedUart<U(s)artHalN, UartTxBuffer<512>>;
+// using only RX software buffer
+using UartN = BufferedUart<U(s)artHalN, UartRxBuffer<256>>;
+// using both TX and RX software buffers
+using UartN = BufferedUart<U(s)artHalN, UartTxBuffer<512>, UartRxBuffer<256>>;
+~~~
+
+
+## Using FreeRTOS buffers
+
+A special buffer implementation is available for FreeRTOS that uses the proper
+queue implementation to sleep and wake up the calling thread:
+
+~~~{.cpp}
+// using both TX and RX software buffers
+using UartTxRxN = BufferedUart<U(s)artHalN, UartTxBufferFreeRtos<512>, UartRxBufferFreeRtos<256>>;
+~~~
+
+ */

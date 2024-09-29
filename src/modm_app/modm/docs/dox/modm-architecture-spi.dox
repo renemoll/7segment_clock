@@ -1,0 +1,10 @@
+/**
+
+@ingroup modm_architecture
+@defgroup modm_architecture_spi Serial Peripheral Interface (SPI)
+
+lbuild module: `modm:architecture:spi`
+
+
+
+ */

@@ -1,0 +1,10 @@
+/**
+
+@defgroup modm_processing Processing
+
+lbuild module: `modm:processing`
+
+Constructs to influence program flow execution, timing, synchronization
+and delegation.
+
+ */
